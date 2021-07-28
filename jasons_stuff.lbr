@@ -3269,7 +3269,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="1.6982" y1="-0.635" x2="1.6982" y2="0.615" width="0.127" layer="21"/>
 <smd name="A" x="-1.2618" y="-0.005" dx="1.524" dy="1.778" layer="1"/>
 <smd name="C" x="1.2382" y="-0.005" dx="1.524" dy="1.778" layer="1"/>
-<text x="-2.8018" y="-2.075" size="1" layer="21">&gt;NAME</text>
+<text x="-2.8018" y="-2.075" size="1" layer="25">&gt;NAME</text>
 <rectangle x1="-0.6818" y1="-0.635" x2="-0.0018" y2="0.615" layer="21"/>
 </package>
 <package name="TIP120">
@@ -5610,13 +5610,13 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pin name="RING_SW" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 <symbol name="DIODE">
-<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-2.54" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="-1.016" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="1.016" y2="-1.27" width="0.254" layer="94"/>
-<pin name="P$1" x="0" y="-4.572" length="short" rot="R90"/>
-<pin name="P$2" x="0" y="0.508" length="short" rot="R270"/>
+<wire x1="-1.016" y1="-3.048" x2="1.016" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-3.048" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="-1.016" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.778" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="-5.08" length="short" rot="R90"/>
+<pin name="P$2" x="0" y="0" length="short" rot="R270"/>
 <text x="-2.54" y="-5.08" size="1.778" layer="94" rot="R90">&gt;NAME</text>
 </symbol>
 <symbol name="TAG_CONNECT_AVR">
